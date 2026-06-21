@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="SAÉ23 - IUT Blagnac BUT R&amp;T" company="IUT Blagnac - Département Réseaux et Télécommunications" webLink="" view-date="2026-05-11" view-index="0" gantt-divider-location="398" resource-divider-location="322" version="3.3.3316" locale="fr_FR">
+    <description><![CDATA[SAÉ23 - Mettre en place une solution informatique pour l'entreprise]]></description>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="226" order="0"/>
+        <field id="tpd4" name="Date de début" width="85" order="1"/>
+        <field id="tpd5" name="Date de fin" width="86" order="2"/>
+        <option id="taskLabelRight" value="resources"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#99ffcc #99ff99 #ffff99 #ff9999 #cc99ff #9999ff #99ffff #33ffcc #ff3333 #003333]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="221" order="0"/>
+        <field id="1" name="Rôle par défaut" width="97" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" uid="058896ab354b4a7aa1f6bed89c771213" name="Semaine 21 — Lancement" color="#8b8b00" meeting="false" start="2026-05-18" duration="2" complete="0" expand="true">
+            <task id="2" uid="e9464a417b3a4a8eb32bd341a88d384e" name="Présentation de la SAÉ23 (1C - 1h)" color="#99ffff" meeting="false" start="2026-05-18" duration="1" complete="0" thirdDate="2026-05-18" thirdDate-constraint="0" expand="true">
+                <depend id="3" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="3" uid="205ced8e864741a4bcafbc8e9b96ebca" name="TP formatif — Prise en main Git / Github (4h)" color="#9999ff" meeting="false" start="2026-05-19" duration="1" complete="0" thirdDate="2026-05-19" thirdDate-constraint="0" expand="true">
+                <depend id="5" type="2" difference="0" hardness="Rubber"/>
+            </task>
+        </task>
+        <task id="4" uid="500d77f454d44b79a08edf7b0a1b72be" name="Semaine 22 — Configuration" color="#8b8b00" meeting="false" start="2026-05-25" duration="1" complete="0" expand="true">
+            <task id="5" uid="892cbe6dbeda4a84b87fab60b7dde803" name="TP formatif — Config. VM &amp; Finalisation TP R209 (4h)" color="#cc99ff" meeting="false" start="2026-05-25" duration="1" complete="0" thirdDate="2026-05-25" thirdDate-constraint="0" expand="true">
+                <depend id="7" type="2" difference="0" hardness="Strong"/>
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="6" uid="7c3e47dab6274e368211318722270238" name="Semaines 23-25 — Développement projet" color="#8b8b00" meeting="false" start="2026-05-26" duration="20" complete="0" expand="true">
+            <task id="7" uid="d47019c1dfda42cb8d3e8490b42a27ce" name="docker en local avec mosquitto" color="#ff9999" meeting="false" start="2026-05-26" duration="1" complete="0" thirdDate="2026-06-01" thirdDate-constraint="0" expand="true">
+                <depend id="8" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="19" uid="f68797c071d440438d661a602752b23a" name="création base de donnée" meeting="false" start="2026-05-26" duration="1" complete="0" thirdDate="2026-05-04" thirdDate-constraint="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Rubber"/>
+            </task>
+            <task id="18" uid="e8203255e3024802a6df2f95a13779fd" name="création script php entre mqtt et SGBD" meeting="false" start="2026-05-26" duration="1" complete="0" thirdDate="2026-05-04" thirdDate-constraint="0" expand="true"/>
+            <task id="21" uid="13f3df0dde5d45a3824c2294e9f87fc9" name="remplissage de la basse de donnée" meeting="false" start="2026-06-05" duration="1" complete="0" thirdDate="2026-05-04" thirdDate-constraint="0" expand="true">
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="8" uid="67dabfdb2cba430eb36ea9996a0275a2" name="nodered et grafana connecté au mqtt" color="#ffff99" meeting="false" start="2026-05-27" duration="1" complete="0" thirdDate="2026-06-08" thirdDate-constraint="0" expand="true"/>
+            <task id="20" uid="7766001c43eb42fda55d6af2b72dafdb" name="création des pages admin,gestion et consultation" meeting="false" start="2026-06-08" duration="1" complete="0" thirdDate="2026-05-04" thirdDate-constraint="0" expand="true"/>
+            <task id="9" uid="240881fbf71341acafb33884a1e14da2" name="Point avancement enseignant (4h)" color="#99ff99" meeting="false" start="2026-06-10" duration="1" complete="0" thirdDate="2026-06-10" thirdDate-constraint="0" expand="false"/>
+            <task id="10" uid="0322f6dafce24e01981a9f02a899939b" name="création page gestion de projet" color="#99ff99" meeting="false" start="2026-06-22" duration="1" complete="0" thirdDate="2026-06-15" thirdDate-constraint="0" expand="true"/>
+            <task id="22" uid="bef53757760b47918e55f954ed6758f0" name="automatisation crontab" meeting="false" start="2026-06-22" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="11" uid="68f1921688634809a9441e70fddfb62a" name="Livrables — Jalons" color="#8b8b00" meeting="false" start="2026-06-08" duration="10" complete="0" expand="true">
+            <task id="12" uid="785aadb87b7a4a89b4cfc1232cda80b6" name="L1 — GANTT + Schéma conception BD (PhpMyAdmin)" color="#cc3333" meeting="true" start="2026-06-08" duration="0" complete="0" expand="true"/>
+            <task id="13" uid="d0955a53b34b460391191d2245b53649" name="L2 — Flow Node-RED" color="#cc3333" meeting="true" start="2026-06-15" duration="0" complete="0" expand="true"/>
+            <task id="14" uid="334761b0e72941edad67a142b5a0f79a" name="L3 — Dashboard Grafana" color="#cc3333" meeting="true" start="2026-06-15" duration="0" complete="0" expand="true"/>
+            <task id="15" uid="21ca130499d044a2b26c7a578141f906" name="L4 — Version finale projet + URL Github" color="#cc3333" meeting="true" start="2026-06-22" duration="0" complete="0" expand="true"/>
+        </task>
+        <task id="16" uid="3ec3438490ee4f66853b69770d02c760" name="Semaine 26 — Évaluation finale" color="#8b8b00" meeting="false" start="2026-06-22" duration="1" complete="0" expand="true">
+            <task id="17" uid="047b37699a6e4d0690cad2d95aeb9c39" name="TP Évaluation — Présentation orale de la maquette (4h)" color="#99ffcc" meeting="false" start="2026-06-22" duration="1" complete="0" thirdDate="2026-06-22" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Yanis Billia" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Mayeul Gibert" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Baptiste Darnaud" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="3" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="21" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="20" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="22" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="17" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
